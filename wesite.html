@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshworks website</title><style>
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/freshworks.png"width=15% height="20%"/>
+
+        <h1>Freshworks Software Academy</h1>
+    </header>
+    <main>
+        <nav>
+            <a href="#home">Home</a>|
+            <a href="#about">About Us</a>|
+            <a href="#course">Courses</a>|
+            <a href="#contact">Contact</a>
+        </nav>
+        <section id="home">
+            <h2>Welcome to Freshworks softworks Academy</h2>
+            <p>Empowering underprivileged students with the skills and knowledge to thrive in the tech industry.</p>
+             <img src="https://website-assets-fw.freshworks.com/attachments/cl1gjcsyx00kw0jfntyln5p74-batch-pic-2.full.jpg" width="60%" height="50%">
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Freshworks Software Acaedemy provides comphrehensive training in various tech stacks to help students get placed in reputed companies.  Our mission is to bridge the gap in education and provide opportunities for all.</p>
+             <ul>
+                <li>Experienced Trainers</li>
+                <li>Hands-on Learning</li>
+                <li>Industry-Relavant Curriculum</li>
+             </ul>
+        </section>
+        <section id="course">
+            <h2>Our Courses</h2>
+            <p>We offer a variety of course to help you excel in the tech field:</p>
+            <ol>
+                <li>Frontend Development</li>
+                <li>Backend Development</li>
+                <li>Full Stack Development</li>
+                <li>Data Science.</li>
+            </ol>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions,feel free to reach out to us using the form below:</p>
+            <form action="/submit-form" type="post">
+                <div>
+                    <label for="name">Name:</label><br>
+                   <input type="text" name="user_name" id="name" required />
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="user_email" id="email" required />
+                </div>
+                <div>
+                    <label for="reason">Reason For Contactacting Us:</label><br>
+                    <select id="reason" name="reason" required>
+                        <option value=""selected disabled>Learn About Academy</option>
+                        <option value="admission">Admission</option>
+                        <option value="jobsearch">Job search</option>
+                        <option value="others">Others</option>
+                    </select> 
+                            
+                </div>
+                <div> 
+                    <label for="message">Message:</label><br>
+                    <textarea type="message" id="message" name="user_message" rows="5" cols="46" placeholder="text here your message to ours.." required></textarea> 
+                </div>
+                <div>
+                    <input type="checkbox" id="agreement" name="agreement" required />
+                    <label for="agreement">I herebyby authorize freshworks to use my email for communication.</label>
+                    
+                </div><br>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 Fresworks Software Academy.</p>
+    </footer>
+
+</body>
+
+</html>

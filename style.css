@@ -1,0 +1,174 @@
+*{
+    
+    margin: auto;
+    font-size: 30px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: default;
+    
+}
+.fa-solidfa-cube{
+    color: #d86363;
+    size: 150px; 
+  }
+header{
+    text-align: justify;
+    text-decoration: solid;    
+    background-image: url(https://images.pexels.com/photos/21832514/pexels-photo-21832514/free-photo-of-forest-on-snowcapped-mountain-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);  
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+    background-color:#142736;
+    color: #e7ca64;
+    height: 500px;
+ }
+.yamuna{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(220, 73, 15);
+    padding: 100px 20px 0px;
+    
+}
+main{
+    background-color: #0a101e;
+}
+ .content{
+    width: 70vw;
+    background-color: #0a101e;
+ }
+h1{
+    font-size: 50px;
+}
+.top{
+display: flex;
+padding: auto;
+margin-left: 30px;
+
+}
+.raji{
+    color:#e7ca64;
+}
+.rajesh{
+    color: white;
+}
+a{color: white;
+    text-decoration: double;
+}
+.top-header{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.navigator{
+    
+    text-align: right;
+    color: white;
+    display: flex;
+    justify-content:flex-end;
+    margin: 0px;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+a:hover{
+    color:#e7ca64;
+    
+}
+h2{
+    color: #e7ca64;
+    font-size: 50px;
+    
+}
+.students{
+    font-size: 50px;
+    
+}
+#home{
+    text-align:center;
+    font-size: 50px;
+    padding: 50px;   
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px ;    
+}
+.mypic>img{
+    border-radius: 30px;
+    box-shadow: 2px 4px 6px;
+    
+    
+}
+.content{
+    background-color: #0a101e;
+    color: azure;
+    
+}
+.aboutme{
+    display: block;
+    padding: 30px;
+        
+  
+}
+
+.aboutme.mailme:hover{
+    
+
+    background-color:#e7ca64 ;
+    font-size: 20px;
+    
+
+}
+
+.skills{
+    display: block;
+    text-align: center;
+    gap: 200px;
+    margin: 30px;
+
+}
+.project{
+     text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box-item{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 40%;
+    background: #101624; 
+    margin: 50px;
+    border: #101624 3px solid;
+    border-radius: 10px;
+}
+.parent{ 
+    width:100%;
+     height: 7px;
+     background-color:white;
+   }
+   .child{
+     height:7px;
+     background-color:#e7ca64;
+     width:100%;
+   }
+   div.container{
+     position:relative;
+     width:100%;
+   }
+   .percentage{
+     position:absolute;
+     left:95%;
+   }
+   .footer{
+    background-color: #0a101e;
+    height: 10vh;
+    color: aliceblue;
+    display: flex;
+    justify-content: stretch;
+   }
+#contact{
+    text-align:justify;
+    
+}

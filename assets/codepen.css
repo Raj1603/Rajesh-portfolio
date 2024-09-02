@@ -1,0 +1,29 @@
+/* Default styles for mobile */
+.container {
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+    background-color: yellow;
+    min-width: 200px;
+  }
+  
+  /* Styles for tablets and larger devices */
+  @media (min-width: 768px) {
+    .container {
+      padding: 20px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Styles for desktops and larger screens */
+  @media (min-width: 1024px) {
+    .container {
+      padding: 30px;
+      font-size: 16px;
+    }
+  }
+  
+  .column {
+    background-color: red;
+    
+  }
