@@ -6,69 +6,51 @@
     padding: default;
     
 }
+/* HEADER-START */
 
-.nav-item{
-    display: flex;
 
-}
 header{
-    text-align: justify;
-    text-decoration: solid;    
-    background-image: url(https://images.pexels.com/photos/21832514/pexels-photo-21832514/free-photo-of-forest-on-snowcapped-mountain-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);  
+    text-align: justify;    
+    background-image: url(https://images.pexels.com/photos/1539225/pexels-photo-1539225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);  
     background-repeat: repeat;
     background-size:100% 100%;
     color: #e7ca64;
     height: 500px;
     padding: 20px;
  }
+
  .top{
     display: flex;
     padding: auto;
     margin-left: 30px;
  }
+ /* HEADER-END */
+/* 
+ HEADER-SECOND HALF */
 .yamuna{
     text-align: center;
     text-shadow: 1px 1px 2px rgb(220, 73, 15);
-    padding: 100px 20px 0px;
+    padding: 200px 20px 0px;
     
 }
-main{
-    background-color: #0a101e;
-}
- .content{
-    width: 70vw;
-    background-color: #0a101e;
- }
-h1{
-    font-size:50px;
-}
+/* HEADER-SECOND HALF */
+
+ /* HEADER-PROPERTY */
+
 .raji{
     color:#e7ca64;
 }
-.ravi{
-  position: relative; 
-  
-  
-}
-.rajesh{
-    color: white;
-}
-.behind{
-    font-size: 60px;
-    z-index: 1;
-    position: absolute;
-    
 
-    
+.rajesh{
+    color:#e7ca64;
 }
+
 a{color: white;
     text-decoration: none;
 }
 .top-header{
     display: flex;
     justify-content: stretch;
-    gap:100px
-
 }
 .navigator{
     
@@ -76,10 +58,9 @@ a{color: white;
     color: white;
     display: flex;
     justify-content:flex-end;
-    margin: 0px;
+    
 }
 .nav-item{
-   
     padding: 20px;
 }
 a:hover{
@@ -91,60 +72,33 @@ h2{
     font-size: 50px;
     
 }
-.students{
-    font-size: 50px;
-    
-}
-#home{
-    text-align:center;
-    font-size: 50px;
-    padding: 50px;   
-    display: block;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px ;    
-}
-.intro{
-    display: flex;
-    margin: 40px;
-  
 
+/* HEADER-PROPERTY=END */
+
+/* 
+BODY START */
+main{
+    background-color: #0a101e;
 }
-.mypic>img{
-    border-radius: 30px;
-    box-shadow: 2px 4px 6px;
-    
-    
+ .content{
+    width: 70vw;
+    background-color: #0a101e;
+ }
+h1{
+    font-size:50px;
 }
+
+
 .content{
     background-color: #0a101e;
-    color: azure;
+    color: white;
     
 }
-.aboutme{
-    display: block;
-    padding: 30px;
-        
-  
-}
+/* BODY END */
 
-.aboutme.mailme:hover{
-    
-
-    background-color:#e7ca64 ;
-    font-size: 20px;
-    
-
-}
-
-.skills{
-    display: block;
+ /* PROJECT START */
+ .project{
     text-align: center;
-    gap: 200px;
-    margin: 30px;
-
-}
-.project{
-     text-align: center;
 }
 .box{
     display: flex;
@@ -153,14 +107,43 @@ h2{
 }
 .box-item{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-    height: 120px;
+    justify-content: space-evenly;
+    height: 190px;
     width: 40%;
     background: #101624; 
     margin: 50px;
     border: #101624 3px solid;
     border-radius: 10px;
 }
+.box-item i{
+    color: rgba(148, 153, 159,0.6);
+    background-color: #0a101e;
+    width: calc(20% - 40px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #a9a8a2;
+    border-radius: 100px;
+    text-align: center;
+}
+.box-item a{
+    text-align: center;
+}
+
+
+
+/* PROJECT END */
+
+   /* SKILLS OPEN */
+
+   .skills{
+    display: block;
+    gap: 200px;
+    margin: 30px;
+}
+
 .parent{ 
     width:100%;
      height: 7px;
@@ -179,14 +162,217 @@ h2{
      position:absolute;
      left:95%;
    }
-   .footer{
+
+   /* SKILLS CLOSED */
+  
+
+
+/* INTRO-MYSELF START */
+
+.aboutme{
+    display: block;
+    padding: 30px;     
+  
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
     background-color: #0a101e;
-    height: 10vh;
+    border-radius: 10px;
+   
+}
+
+.intro-image img {
+    border-radius: 1%;
+    border: 1px solid #e7ca64;
+ 
+}
+
+
+.intro-words h2 {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.intro-words h3 {
+    font-size: 1.5em;
+    color: #e7ca64;
+    margin-bottom: 30px;
+}
+
+.intro-words p {
+    color: #e7ca64;
+    margin: 10px ;
+}
+
+.intro-words p span {
+    color: white;
+}
+
+.intro-words a {
+    text-decoration: none;
+    color: #a9a8a2;
+}
+
+.intro-words a .mailme {
+    color: white;
+}
+
+.intro-words button {
+    background-color: #e7ca64;
+    border: none;
+    padding: 10px 20px; 
+    color: #fff;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.intro-words button:hover {
+    background-color: #dd7d2e;
+}
+
+
+/* INTRO-MYSELF END */
+
+
+/* CONTACT-box */
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+    color:white ;
+    background-color: #0a101e;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto 0px;
+}
+
+.contact-box input[type="text"],
+.contact-box input[type="email"],
+.contact-box textarea {
+    width: 350px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #a9a8a2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: rgb(16, 22, 36);
+}
+
+.contact-box input::placeholder,
+.contact-box textarea::placeholder {
+    color: #f0e8e8;
+}
+
+
+.contact-box button {
+    background-color: #e7ca64;
+    width: 350px;
+    padding: 10px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s linear;
+    transition: color 0.4s ease-in-out;
+}
+
+.contact-box button:hover {
+    background-color: #dd7d2e;
+    color: rgb(255, 0, 0);
+}
+ /* CONTACT-LOGO */
+.address{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.address-logo1>div{
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+}
+/* style for the address section */
+.address {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #0a101e;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styling for address logo section */
+.address-logo1 {
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.address-logo1 div {
+    margin-right: 20px;
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+.address-logo1 div i {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.address-logo1 p {
+    margin: 0;
+    font-size: 1em;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* Styling for address logo2 section */
+.address-logo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 300px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.address-logo2 p {
+    margin: 10px 0;
+    color: #FFFFFF;
+}
+
+.address-logo2 i {
+    margin-right: 8px;
+    color: #e7ca64; 
+}
+
+.address-logo2 span {
+    font-weight: bold;
+}
+
+/* CONTACT END */
+
+
+/* FOOTER */
+.footer{
+    background-color: #0a101e;
+    height: 30vh;
     color: aliceblue;
     display: flex;
     justify-content: stretch;
    }
-#contact{
-    text-align:justify;
-    
-}
+/*  
+   FOOTER */
