@@ -468,7 +468,7 @@ h1{
 /*  
    FOOTER */
 
-@media (max-width:600px){
+@media (max-width:610px){
     .top-header{
         flex-direction: row;
         background-color: rgba(147, 71, 71,0.6);
