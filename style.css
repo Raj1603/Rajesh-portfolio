@@ -18,7 +18,7 @@ header{
   
  }
 section{
-    padding-top: 100px;
+    padding-top: 8rem;
 }
  .top{
     display: flex;
@@ -149,7 +149,7 @@ h1{
     color: white;
     padding: 5rem;
     text-align: center;
-    background-color: #a9a8a2;
+    background-color: #46516a;
     margin: 3rem 0;
     
 }
@@ -157,15 +157,16 @@ h1{
     color: white;
     padding: 5rem;
     text-align: center;
-    background-color: #a9a8a2;
+    background-color: #46516a;
     margin: 3rem 0;
     
 }
 .box-item1 i{
     color: #e7ca64;
     background-color: #0a101e;
-    padding: 10px;
+    padding: 1em;
     border-radius: 50%;
+    margin-bottom: 3rem;
     
 }
 
@@ -173,8 +174,9 @@ h1{
 .box-item2 i{
     color: #e7ca64;
     background-color: #0a101e;
-    padding: 10px;
+    padding: 1rem;
     border-radius: 50%;
+    margin-bottom: 3rem;
 }
 #project div a:hover{
     border-radius: 5px;
