@@ -7,7 +7,7 @@ You can view the live demo of my portfolio at: [Click here for live preview](htt
 - **CSS**: For styling the layout and design.
 
 ## Inspiration
-This portfolio is inspired by the design and functionality of [Devis](https://docs.google.com/document/d/1f1o_sQz09Q22DkfvW1j6sSlGFvO6U5K0rGT0Mm78B2w/edit?usp=sharing). I aimed to create a clean, user-friendly interface that highlights my projects and skills.
+This portfolio is inspired by the design and functionality of [Devis](https://docs.google.com/document/d/1f1o_sQz09Q22DkfvW1j6sSlGFvO6U5K0rGT0Mm78B2w/edit?usp=sharing). I aimed to create a clean, user-friendly interface that highlights my projects and skills[link](https://devis-react.vercel.app/home-v4).
 ## Features
 - About me
 - Skills
