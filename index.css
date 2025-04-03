@@ -340,9 +340,9 @@ padding-top: 21rem;
     height: 7px;
     background-color: #e7ca64;
     
-    width: 80%;
+    width: 20%;
     position: absolute;
-    right: 20%;
+    right: 80%;
    
    }
    .child-5{
@@ -380,7 +380,7 @@ padding-top: 21rem;
   }
   .percentage-4{
     position: absolute;
-    left:78%;
+    left:20%;
     
   }
   .percentage-5{
